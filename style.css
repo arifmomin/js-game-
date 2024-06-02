@@ -1,0 +1,49 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    outline: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.playerOneInfo, .playerTwoInfo{
+    width: 400px;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #96b2be;
+    border-radius: 20px;
+    row-gap: 20px;
+    text-transform: capitalize;
+}
+.playerTwoInfo{
+    background: #9896ee;
+}
+.playerTwoBox{
+    display: none;
+}
+.playerOneHead, .playerTwoHead{
+    font-size: 26px;
+    font-weight: 600;
+    color: azure;
+}
+#playerOneInput, #playerTwoInput{
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+}
+.PlayerOneButton, .PlayerTwoButton, .PlayerTwoTryAgain{
+    padding: 8px 15px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+.PlayerTwoTryAgain{
+    display: none;
+}
