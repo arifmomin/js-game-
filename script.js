@@ -74,3 +74,4 @@ PlayerTwoButton.addEventListener("click", ()=>{
 tryAgain.addEventListener('click', ()=>{
     window.location.reload();
 });
+
