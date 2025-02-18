@@ -4,7 +4,7 @@ const playerOneHead = document.querySelector(".playerOneHead");
 const playerOneError = document.querySelector(".playerOneError");
 const playerOneInput = document.querySelector("#playerOneInput");
 const PlayerOneButton = document.querySelector(".PlayerOneButton")
-
+const playerOneBox = document.querySelector(".playerOneBox");
 // =============player Two ===========
 const playerTwoBox = document.querySelector(".playerTwoBox");
 const playerTwoHead = document.querySelector(".playerTwoHead");
@@ -33,7 +33,8 @@ PlayerOneButton.addEventListener("click" ,()=>{
         playerOneError.style.color = "green";
         playerOneNumber = playerOneValue;
         playerOneInfo.style.display = "none"
-        playerTwoBox.style.display = "block"
+        playerTwoBox.style.display = "flex"
+        playerOneBox.style.display = 'none'
     }
 });
 
